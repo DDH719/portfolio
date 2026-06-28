@@ -1,8 +1,8 @@
 export const projects = [
-  { title: "MUSHROOM LAMP" },
-  { title: "CIRCUS FAIR" },
-  { title: "CAMPBELL SOUP" },
-  { title: "OBJECT STUDY" },
-  { title: "BRAND SYSTEM" },
-  { title: "POSTER WORK" },
+  { image: "/Image.png" },
+  { image: "/Image2.png" },
+  { image: "/Image3.png" },
+  { image: "/Image4.png" },
+  { image: "/Image5.png" },
+  { image: "/Image6.png" },
 ];
