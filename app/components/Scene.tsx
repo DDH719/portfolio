@@ -429,6 +429,52 @@ transformStyle: "preserve-3d",
       >
         SCROLL / WHEEL • CLICK TO ENTER
       </div>
+      {/* ABOUT SECTION */}
+<div
+  style={{
+    position: "absolute",
+    bottom: 80,
+    left: "50%",
+    transform: "translateX(-50%)",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    textAlign: "center",
+    gap: 12,
+    fontFamily: "sans-serif",
+    color: "rgba(0,0,0,0.5)",
+  }}
+>
+  {/* 이름 / 전공 */}
+  <div style={{ fontSize: 14, letterSpacing: "0.2em" }}>
+    Kim Dohyun • VISUAL DESIGN
+  </div>
+
+  {/* 소개 */}
+  <div
+    style={{
+      fontSize: 12,
+      opacity: 0.7,
+      lineHeight: "1.6",
+      maxWidth: 420,
+    }}
+  >
+    I design interactive experiences that go beyond scrolling interfaces.  
+    This project explores space-based portfolio navigation.
+  </div>
+
+  {/* 철학 */}
+  <div
+    style={{
+      fontSize: 11,
+      opacity: 0.5,
+      maxWidth: 380,
+      lineHeight: "1.6",
+    }}
+  >
+    Design should not only display work, but create a space where the viewer experiences it.
+  </div>
+</div>
     </div>
   );
 }
